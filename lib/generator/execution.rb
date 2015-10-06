@@ -18,6 +18,7 @@ module HQMF2JS
         "function() {
           var patient = this;
           var effective_date = <%= effective_date %>;
+          var start_date = <%= start_date %>;
           var enable_logging = <%= enable_logging %>;
           var enable_rationale = <%= enable_rationale %>;
           var short_circuit = <%= short_circuit %>;
